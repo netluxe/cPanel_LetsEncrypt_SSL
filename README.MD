@@ -22,6 +22,12 @@ This script takes 2 arguments:
 
 /root/ssl/install_ssl_single_domain.sh -d domain.com -d www.domain.com -p /home/domainuser/public_html
 
+## CRON
+
+This script can be run via cron. It is suggested to run it on a 60 day basis.
+
+0 0 */60 * * /root/ssl/install_ssl_single_domain.sh -d domain.com -d www.domain.com -p /home/domainuser/public_html
+
 ## Credit
 
 This is a wrapper for the script provided by cPanel here:
