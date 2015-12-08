@@ -18,7 +18,7 @@ This script takes 2 arguments:
 -p The path the files for the website are located
 -d One or more domains to register the SSL for (the first should be the BARE DOMAIN if doing domain.com www.domain.com)
 
-Example:
+#### Example:
 
 /root/ssl/install_ssl_single_domain.sh -d domain.com -d www.domain.com -p /home/domainuser/public_html
 
