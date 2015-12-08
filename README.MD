@@ -9,10 +9,6 @@ Follow those instructions up to: "Generate an SSL"
 
 Then switch to this script.
 
-Get this with:
-
-git clone https://dev.whitwell.xyz/tnwhitwell/cPanel_SSL.git /root/ssl
-
 The root password must be set in installssl.pl (sorry)
 
 ## Credit
